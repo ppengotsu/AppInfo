@@ -13,6 +13,7 @@
 		44BC13BC1AC858820042268E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44BC13BB1AC858820042268E /* Images.xcassets */; };
 		44BC13BF1AC858820042268E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44BC13BD1AC858820042268E /* LaunchScreen.xib */; };
 		44BC13CB1AC858820042268E /* AppinfoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BC13CA1AC858820042268E /* AppinfoTests.swift */; };
+		44BC13D61AC859BD0042268E /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BC13D51AC859BD0042268E /* AppInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		44BC13C41AC858820042268E /* AppinfoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppinfoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44BC13C91AC858820042268E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44BC13CA1AC858820042268E /* AppinfoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppinfoTests.swift; sourceTree = "<group>"; };
+		44BC13D51AC859BD0042268E /* AppInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		44BC13B11AC858810042268E /* Appinfo */ = {
 			isa = PBXGroup;
 			children = (
+				44BC13D41AC8599A0042268E /* Model */,
 				44BC13B41AC858810042268E /* AppDelegate.swift */,
 				44BC13B61AC858810042268E /* ViewController.swift */,
 				44BC13B81AC858810042268E /* Main.storyboard */,
@@ -110,6 +113,14 @@
 				44BC13C91AC858820042268E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		44BC13D41AC8599A0042268E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				44BC13D51AC859BD0042268E /* AppInfo.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +225,7 @@
 			files = (
 				44BC13B71AC858810042268E /* ViewController.swift in Sources */,
 				44BC13B51AC858810042268E /* AppDelegate.swift in Sources */,
+				44BC13D61AC859BD0042268E /* AppInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +417,7 @@
 				44BC13D01AC858820042268E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		44BC13D11AC858820042268E /* Build configuration list for PBXNativeTarget "AppinfoTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +426,7 @@
 				44BC13D31AC858820042268E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
